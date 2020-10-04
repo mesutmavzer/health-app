@@ -1,0 +1,37 @@
+export interface Product {
+  id: string;
+  productNaam: string;
+  productPortie: number;
+  beschrijving: string;
+  gevoelswaarde: number;
+  gezondheidswaarde: number;
+  energieInKcal: number;
+  energieInKJoule: number;
+  water: number;
+  eiwit: number;
+  vet: number;
+  verzadigdVet: number;
+  enkelvoudigVerzadigdVet: number;
+  meervoudigVerzadigdVet: number;
+  cholestrol: number;
+  koolhydraten: number;
+  suikers: number;
+  voedingsvezels: number;
+  vitamineA: number;
+  vitamineB1: number;
+  vitamineB2: number;
+  vitamineB6: number;
+  vitamineB11: number;
+  vitamineB12: number;
+  vitamineC: number;
+  vitamineD: number;
+  natrium: number;
+  kalium: number;
+  calcium: number;
+  fosfor: number;
+  ijzer: number;
+  magnesium: number;
+  koper: number;
+  zink: number;
+  groep: string;
+}
